@@ -1,0 +1,42 @@
+Description of each folder:
+
+    .expo-shared:
+        EXPO-generated folder. This folder is just used for expo, shouldn't be changed
+
+    assets:
+        Contains assets used for app such as font files and images (for background, icon, loading screen, etc.)
+
+    screens:
+        Contains all of the screens used in this app.
+
+    navigation:
+        Contains navigator file. This is responsible for moving between screens and transitions
+
+    node_modules:
+        EXPO-generated folder. Contains all the packages needed to run this, and when you run something like
+        "npm install" or "expo install" it installs stuff into this folder. 
+
+    store:
+        Has two folders: Reducers, and Actions. The reducer describes the state and how we want to update it
+        after a given action. Actions contain functions that act on our state, and are used in other files to
+        manage the state.
+
+
+Description of each file:
+
+    App.js:
+        This file contains our app. It should be small and mostly consist of import statements. Most of the stuff
+        in the app (navigator, screens, reducer, etc.) Should be distributed in other files and imported into App.js
+
+    app.json:
+        This file contains information used for publishing the app. We don't need to worry about this until it goes
+        on the app/google play store.
+
+    babel.config.js:
+        EXPO-generated. We don't need to deal with this.
+
+    package-lock.json:
+        EXPO-generated. We don't need to deal with this.
+
+    package.json:
+        EXPO-generated. We don't need to deal with this.
